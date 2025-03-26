@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: kanha05/emailservice:latest
+        image: lavam1024/emailservice:latest
         ports:
         - containerPort: 8080
         env:
